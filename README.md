@@ -1,6 +1,6 @@
 # Agence de voyage
-![Illustration du site web mobile](./illu1.png){width = 375 ; height = 667}
-![Illustration du site web desktop](./illu2.png)
+![Illustration du site web mobile](./illuFinal.png)
+
 Ce projet est un projet réaliser afin de maîtriser les rudimentaires Html Css et utiliser les médias queries pour un responsive  design.
 Le projet est créer en mobil-first et une maquette à été réalisée sur figma.
 
