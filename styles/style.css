@@ -2,10 +2,14 @@
 
 p{
     font-family: 'Inter', sans-serif;
+    color: rgb(70, 70, 70);
 }
 
-h1{
+h1, h2{
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(33, 33, 33);
 }
 
 .btn{
@@ -19,6 +23,29 @@ h1{
 }
 
 
+/** Navigation **/
+
+.logo{
+    width: 1.5em;
+}
+
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 2.6em;
+}
+
+.menuNav{
+    display: none;
+}
+
+.menu-hamburger{
+    width: 2.4em;
+    position: absolute;
+    top : 0.4em;
+    right: 0.4em;
+}
+
 /*** Header **/
 
 .banner{
@@ -26,7 +53,7 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 24em;
+    height: 20em;
     padding: 2em;
 
 }
@@ -41,4 +68,31 @@ h1{
     padding: 2em;
     text-align: center;
     background-color:rgb(23, 23, 23, 0.7);
+}
+
+/** Corps de la page **/
+
+.para{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.article-principal{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.illu{
+    width: 96vw;
+    margin: auto;
+}
+
+.icon{
+    width: 1.4em;
+}
+.footer{
+    display: flex;
+    justify-content: right;
+    gap: 0.3em;
 }
