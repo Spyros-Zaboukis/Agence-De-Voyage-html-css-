@@ -171,5 +171,76 @@ h1, h2{
     width: 2.2em;
     margin-left: 2em;
 }
+.article-principal{
+    width: 40em;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
 
+.gallery-img{
+    display: inline;
+    margin-left: 1vw;
+}
+
+.illu{
+    width: 32vw;
+}
+
+.icon{
+    width: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.3em;
+}
+.footer{
+    margin-right: 2em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.element{
+    width: 25em;
+    text-align: center;
+
+}
+.element-gauche{
+    margin-left: 16vw;
+}
+
+.title-special{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.map{
+    width: 38vw;
+}
+.form{
+    color: black;
+    background-color: white;
+    width: 40em;
+    border : none;
+    text-align: left;
+}
+
+.form input{
+    width: 50em;
+    height: 2.4em;
+    margin-bottom: 1em;
+}
+.form label{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#textarea{
+    height: 14vh;
+}
+
+.btn-form{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin: auto;
+}
 }
