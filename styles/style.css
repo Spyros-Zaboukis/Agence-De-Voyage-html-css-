@@ -1,5 +1,5 @@
-/**  Document général **/
-
+/**-----------------  Document général ----------------------------------**/
+/**----------------------------------------------------------------------**/
 p{
     font-family: 'Inter', sans-serif;
     color: rgb(70, 70, 70);
@@ -23,7 +23,7 @@ h1, h2{
 }
 
 
-/** Navigation **/
+/**----------------- Navigation ----------------------------------**/
 
 .logo{
     width: 1.5em;
@@ -46,7 +46,7 @@ h1, h2{
     right: 0.4em;
 }
 
-/*** Header **/
+/***----------------- Header ----------------------------------**/
 
 .banner{
     background: url("./../img/AV-Mobile-banner.jpg");
@@ -70,7 +70,7 @@ h1, h2{
     background-color:rgb(23, 23, 23, 0.7);
 }
 
-/** Corps de la page **/
+/**----------------- Corps de la page ----------------------------------**/
 
 .para{
     padding-right: 2em;
@@ -117,3 +117,59 @@ h1, h2{
 
 
 
+
+
+
+/**--------- ECRANS LARGES PC ---------------------------------------------------------**/
+/**---------------------------------------------------------------------------------**/
+
+
+@media(min-width:1200px){
+
+
+.banner{
+    background: url("./../img/AV-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40em;
+    padding: 2em;
+}
+
+.cadre{
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+    background-color:rgb(23, 23, 23, 0.7);
+    width : 40vw;
+    height: 25vh;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    font-size: 1.5em;
+}
+
+.menu-hamburger{
+    display: none;
+}
+
+.menuNav{
+    display: flex;
+    justify-content: end;
+    margin-right: 3vw;
+    gap : 2em;
+}
+.menuNav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(52, 52, 52);
+}
+.active{
+    font-weight: bold;
+}
+.logo{
+    width: 2.2em;
+    margin-left: 2em;
+}
+
+}
