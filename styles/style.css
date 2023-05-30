@@ -96,3 +96,24 @@ h1, h2{
     justify-content: right;
     gap: 0.3em;
 }
+
+.form{
+    text-align: center;
+    border : 1px solid black;
+    width: 50vw;
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 1.5em;
+}
+
+.map{
+    width: 90vw;
+    margin-left: 4vw;
+    border: 1px solid black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
