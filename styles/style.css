@@ -1,0 +1,35 @@
+/**  Document général **/
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*** Header **/
+
+.banner{
+    background: url("./../img/AV-Mobile-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 32em;
+    padding: 2em;
+
+}
+
+.bannertitle{
+    color: white;
+
+}
+
+.cadre{
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+    background-color:rgb(23, 23, 23, 0.7);
+}
